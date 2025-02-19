@@ -6,7 +6,7 @@ import plotly.express as px
 
 # Inicializar o app
 app = dash.Dash(__name__)
-
+server = app.server
 # Definir cores
 colors = {
     'background': '#111111',  # Cor de fundo da página inteira
